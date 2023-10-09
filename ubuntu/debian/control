@@ -6,7 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 13),
                doxygen,
-               libgz-cmake3-dev
+               libgz-cmake4-dev
 Vcs-Browser: https://github.com/gazebosim/gz-utils3-release
 Vcs-Git: https://github.com/gazebosim/gz-utils3-release
 Homepage: https://github.com/gazebosim/gz-utils
@@ -23,7 +23,7 @@ Package: libgz-utils3-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-utils3 (= ${binary:Version}),
-         libgz-cmake3-dev,
+         libgz-cmake4-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - Development files
