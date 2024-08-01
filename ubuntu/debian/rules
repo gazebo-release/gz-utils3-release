@@ -29,3 +29,7 @@ ifeq ($(DEB_HOST_ARCH),armhf)
 else
 	dh_auto_test $@ --no-parallel --buildsystem=cmake
 endif
+
+# Execute doc creation to export at least the doxygen tag file
+override_dh_auto_build-indep:
+  $(MAKE) doc
