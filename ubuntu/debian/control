@@ -6,6 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 13),
                doxygen,
+               libspdlog-dev,
                libgz-cmake4-dev
 Vcs-Browser: https://github.com/gazebosim/gz-utils3-release
 Vcs-Git: https://github.com/gazebosim/gz-utils3-release
@@ -23,6 +24,7 @@ Package: libgz-utils3-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-utils3 (= ${binary:Version}),
+         libspdlog-dev,
          libgz-cmake4-dev,
          ${misc:Depends}
 Multi-Arch: same
