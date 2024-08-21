@@ -1,4 +1,4 @@
 usr/include/*/*/*/utils/log/*
-usr/include/*/*/*/utils/log.hh
 usr/lib/*/pkgconfig/*-utils[0-99]-log.pc
 usr/lib/*/cmake/*-utils[0-99]-log/*
+usr/lib/*/lib*-utils[0-99]-log.so
