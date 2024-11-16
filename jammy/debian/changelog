@@ -1,3 +1,9 @@
+gz-utils3 (3.1.0-1~jammy) jammy; urgency=medium
+
+  * gz-utils3 3.1.0-1 release
+
+ -- Michael Carroll <mjcarroll@intrinsic.ai>  Sat, 16 Nov 2024 01:56:29 +0000
+
 gz-utils3 (3.0.0-1~jammy) jammy; urgency=medium
 
   * gz-utils3 3.0.0-1 release
